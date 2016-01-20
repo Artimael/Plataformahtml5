@@ -4,6 +4,4 @@ function Enemigo(x,y{
     this.contador=0;
     this.setX(x);
     this.setY(y);
-
-    
 };

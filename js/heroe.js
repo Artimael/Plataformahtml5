@@ -1,4 +1,5 @@
 function Heroe({
+    Kinetic.Rect.call(this);
     this.setWidth(40);
     this.setHeight(80);
     this.vx=15;//velocidad en X es 15
@@ -21,3 +22,5 @@ function Heroe({
     
     };
 });
+    
+Heroe.prototype=Object.create(Kinetic.Rect.prototype);//heradamos todo lo que rect tiene y se lo añade a heroe
